@@ -20,7 +20,7 @@ jobs:
 
       - name: Extract Nexlink project
         run: |
-          unzip -q Nexlink-Android-source-2026-10-21.zip
+          unzip -q Nexlink-Android-0.2.0-source.zip
           test -f Nexlink/app/build.gradle.kts
 
       - name: Set up Java
